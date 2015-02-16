@@ -3,13 +3,13 @@
 
 -------------------------------------------------------------------------
 
-## Purpose and Motivation
+## Motivation
 
 MIT lectures on **Structure and Interpretation of Computer Programs**, as taught in 1986 by [Gerald Sussman](http://groups.csail.mit.edu/mac/users/gjs/) and [Harold Abelson](http://groups.csail.mit.edu/mac/users/hal/hal.html), are available online in [youtube](https://www.youtube.com/course?list=ECE18841CABEA24090) and [MIT OCW's website](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). The videos are available in 240p/360p: very poor quality for visualizing the code in the slides. In addition to that, the camera won't fixate on the board for long, making it extremely difficult to follow. 
 
-### This is a transcribed version of the full code featured in the lectures. ###
+### This is a digitized version of the code featured in the lectures. ###
 
-This project is intended to make the code and content in the lectures manipulable and readable, **unlike the slide below**:
+This project's intent is to make the lectures' code and content readable (**unlike the slide below**) and available in digital format.
 
 ![Unreadable Slide](http://i.imgur.com/nin0M9n.png "This is nearly impossible to read")
 
@@ -19,7 +19,7 @@ This project is intended to make the code and content in the lectures manipulabl
 
 I tried to maintain consistency of notation, comments and indentation throughout the lectures. Much of the original indentation on the slides was maintained, except for when I was able to improve readability by changing it. Lecture breaks are also noted.
 
-Every `SLIDE`, `TERMINAL` or `BOARD` content is presented, together with the time appearance. E.g.
+Every `SLIDE`, `TERMINAL` or `BOARD` content is marked with the time of appearance. E.g.
 	
 	;# SLIDE 0:00:00
 	    ... slide content
@@ -40,10 +40,8 @@ Every `SLIDE`, `TERMINAL` or `BOARD` content is presented, together with the tim
 
 -------------------------------------------------------------------------
 
-Help is much appreciated!
--------------------------
 
-### Feel free to create an issue whenever you spot any errors in the transcription.
+### Feel free to create an issue whenever you spot errors in the transcription.
 #### Things left to do:
 - Standardize syntax and style across the transcription files.
 

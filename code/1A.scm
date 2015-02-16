@@ -169,7 +169,7 @@ SQUARE
 
 ;# BOARD 0:51:55
 (define (abs x)
-	(cond 	((< x 0) (-x))
+	(cond 	((< x 0) (- x))
 			((= x 0) 0)
 			((> x 0) x)))
 ;# END BOARD
@@ -207,7 +207,7 @@ To find an approximation to √X
 		guess
 		(try (improve guess x) x)))
 
-(define (sqrt 1) (try 1 x))
+(define (sqrt x) (try 1 x))
 ;# END BOARD
 
 
@@ -238,7 +238,7 @@ To find an approximation to √X
 (define (sqrt x)
 	(define (improve guess)
 		(average guess (/ x guess)))
-	(define (good-enough? guess x)
+	(define (good-enough? guess)
 		(< (abs (- (square guess) x))
 			.001))
 	(define (try guess)
